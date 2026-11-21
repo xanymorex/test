@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Terraform
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+*.tfvars
+*.tfvars.json
