@@ -1,0 +1,14 @@
+variable "name" { type = string }
+variable "public_api_id" { type = string }
+variable "public_resource_id" { type = string }
+variable "public_method_http_method" { type = string }
+variable "public_lambda_invoke_arn" { type = string }
+variable "public_lambda_function_name" { type = string }
+variable "private_api_id" { type = string }
+variable "private_resource_id" { type = string }
+variable "private_method_http_method" { type = string }
+variable "isolated_lambda_invoke_arn" { type = string }
+variable "isolated_lambda_function_name" { type = string }
+variable "public_api_log_group_arn" { type = string }
+variable "private_api_log_group_arn" { type = string }
+variable "log_retention_days" { type = number }
